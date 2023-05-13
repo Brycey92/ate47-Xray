@@ -15,7 +15,7 @@ apply plugin: 'maven-publish'
 
 version '1.0.6'
 group 'fr.atesab.xray'
-archivesBaseName = 'XrayMod'
+archivesBaseName = 'BetterSounds'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 

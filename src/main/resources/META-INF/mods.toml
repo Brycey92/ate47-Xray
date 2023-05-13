@@ -1,17 +1,17 @@
 modLoader="javafml"
 loaderVersion="[31,)"
-issueTrackerURL="https://github.com/ate47/Xray/issues"
+issueTrackerURL=""
 license="The Unlicense"
 [[mods]]
-	modId="atianxray"
+	modId="bettersounds"
 	version="${file.jarVersion}"
-	displayName="XrayMod"
-	displayURL="https://www.curseforge.com/minecraft/mc-mods/xray-1-13-rift-modloader"
-	authors="ATE47, ThaEin"
-	description="Bored by finding your diamonds legitimately? This mod is for you!"
+	displayName="Better Sounds"
+	displayURL=""
+	authors="Brycey92"
+	description="Adds better sounds ;)"
 	logoFile="logo.png"
 
-[[dependencies.atianxray]]
+[[dependencies.bettersounds]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.1,)"

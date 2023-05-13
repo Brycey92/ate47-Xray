@@ -44,8 +44,8 @@ import java.util.stream.Collectors;
 @OnlyIn(Dist.CLIENT)
 @Mod(XrayMain.MOD_ID)
 public class XrayMain {
-	public static final String MOD_ID = "atianxray";
-	public static final String MOD_NAME = "Xray";
+	public static final String MOD_ID = "bettersounds";
+	public static final String MOD_NAME = "Better Sounds";
 	private static final Logger log = LogManager.getLogger(MOD_ID);
 
 	private static List<XrayMode> modes = Lists.newArrayList();
@@ -224,8 +224,8 @@ public class XrayMain {
 	 * Mod config file
 	 */
 	public static File getSaveFile() {
-		File old_file = new File(Minecraft.getInstance().gameDir, "xray.json");
-		File new_file = new File(Minecraft.getInstance().gameDir, "config/xray.json");
+		File old_file = new File(Minecraft.getInstance().gameDir, "bettersounds.json");
+		File new_file = new File(Minecraft.getInstance().gameDir, "config/bettersounds.json");
 
 		// if old exists but new not
 		if(old_file.exists() && !new_file.exists()) {
